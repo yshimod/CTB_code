@@ -219,7 +219,7 @@ Replace lines 138 to 145 of `generate_zeronoise_data.R` with the corresponding c
     incomes <- rep(20, 42)
     ```
 
-To run the estimation, adjust line 10 of the `estimate.do`, which is `gen ndf = 42`, as necessary.
+To run the estimation, adjust line 8 of the `estimate.do`, which is `gen ndf = 42`, as necessary.
 This line specifies the number of budget constraints included in the problem set.
 
 
